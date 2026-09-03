@@ -1,0 +1,15 @@
+import java.util.*;
+
+class Printer {
+
+    // Generic method
+        public <T> void printArray(T[] array) {
+                for (T element : array) {
+                            System.out.println(element);
+                                    }
+                                        }
+…                                                                    
+                                                                            myPrinter.printArray(intArray);
+                                                                                    myPrinter.printArray(stringArray);
+                                                                                        }
+                                                                                        }
